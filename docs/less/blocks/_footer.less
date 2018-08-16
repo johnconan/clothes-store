@@ -1,0 +1,125 @@
+.footer {
+	padding-top: 45px;
+	padding-bottom: 100px;
+	background-color: #F7F7F7;
+}
+
+.footer_text {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 12px;
+	color: #CCC;
+	@media (min-width: 992px) {
+		font-size: 14px;
+	}
+}
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	@media (min-width: 992px) {
+		margin-bottom: 0px;
+	}
+}
+.footer_list {
+	margin-bottom: 10px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.footer_link {
+	color: #4C4C4C;
+	display: block;
+	&:hover {
+		text-decoration: none;
+		color: #69c;
+		-webkit-transition: 0.2s ease-in;
+		   -moz-transition: 0.2s ease-in;
+		    -ms-transition: 0.2s ease-in;
+		     -o-transition: 0.2s ease-in;
+		        transition: 0.2s ease-in;
+	}
+}
+
+.footer_form {
+	position: relative;
+}
+.footer_input {
+	margin-bottom: 35px;
+	outline: none;
+	padding: 13px;
+	border: none;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	font-size: 14px;
+	padding-right: 100px;
+}
+
+.fa-envelope {
+	font-size: 18px;
+	position: absolute;
+	right: 140px;
+	top: 14px;
+	color: #CCC;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+	&:hover {
+		-webkit-transition: 0.2s ease-in;
+		   -moz-transition: 0.2s ease-in;
+		    -ms-transition: 0.2s ease-in;
+		     -o-transition: 0.2s ease-in;
+		        transition: 0.2s ease-in;
+	    color: #69c;
+	}
+	@media (min-width: 992px) {
+		right: 0px;
+		top: 14px;
+	}
+}
+.footer_social {
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	font-size: 36px;
+	.fab {
+		color: #4D4D4D;	
+	}
+}
+.author {
+	display: flex;
+}
+.author_text {
+	margin-right: 5px;
+}
+.footer_link-author {
+	color: #65B4DD;
+	text-decoration: underline;
+	-webkit-transition: 0.2s ease-in-out;
+	   -moz-transition: 0.2s ease-in-out;
+	    -ms-transition: 0.2s ease-in-out;
+	     -o-transition: 0.2s ease-in-out;
+	        transition: 0.2s ease-in-out;
+}
+
+
+
+
+.footer_payments {
+	display: flex;
+	font-size: 36px;
+	margin-bottom: 40px;
+	.fab {
+		margin-right: 10px;
+	}
+}
+.fa-cc-visa {
+	color: #4986c4;
+}
+.fa-cc-mastercard {
+	color: #ffc872;
+}
+.fa-cc-paypal {
+	color: #93d2f0;
+}

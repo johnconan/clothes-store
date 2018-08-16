@@ -1,0 +1,126 @@
+/**
+ * Owl Carousel v2.3.3
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+ .owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; 
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+@media (min-width:1024px) {
+  .owl-theme .owl-nav [class*='owl-'] {
+    display: block;
+  }  
+}
+.owl-theme .owl-nav button.owl-prev {
+ color: #000;
+ font-size: 36px;
+ position: absolute;
+ left: 10px;
+ margin-top: -30px;
+ outline-style: none;
+ border-radius: 3px;
+}
+
+
+
+.owl-theme .owl-nav button.owl-next {
+  position: absolute;
+  border-radius: 3px;
+  color: #000;
+  font-size: 36px;
+  right: 10px;
+  margin-top: -30px;
+  outline-style: none;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+  /*background-color: #7A68E1;*/
+  /*opacity:0.5;*/
+  text-decoration: none; }
+}
+
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: pointer; 
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; 
+}
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; 
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #FFF;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;  
+    outline: none; 
+  }
+  @media (min-width:1024px) {
+    .owl-theme .owl-dots .owl-dot span {
+      display: none;
+    } 
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #7A68E1; 
+  }
+
+  .owl-theme .owl-dots {
+    position: absolute;
+    bottom: 40px;
+    width: 100%; 
+  }
+
+  @media (min-width:768px) {
+    .owl-theme .owl-dots {
+     bottom: 20px;
+    } 
+  }
+
+  button.owl-dot {
+    outline-style: none;
+  }
+
+  .owl-theme .owl-nav button.owl-next img {
+     margin-top: -2px;
+     margin-right: -1px;
+  }
+
+   .owl-theme .owl-nav button.owl-prev img {
+     margin-top: -2px;
+     margin-left: -1px;
+  }

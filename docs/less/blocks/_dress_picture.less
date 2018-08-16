@@ -1,0 +1,42 @@
+.dress_picture {
+	position: relative;
+	cursor: pointer;
+}
+
+.dress {
+	margin: 0;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	@media (min-width: 768px) {
+		font-size: 10px;
+}
+	@media (min-width: 1200px) {
+		font-size: 14px;
+}
+}
+
+.block {
+	height: 300px;
+	background-color: #000;
+}
+
+.picture-mobile-center {
+	text-align: center;
+	margin-bottom: 20px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	@media (min-width: 768px) {
+		margin-bottom: 0;
+		text-align: left;
+	}
+}
